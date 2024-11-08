@@ -82,3 +82,23 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ---
 
+# References
+
+
+
+# Acknowledgments
+
+- FOSSEE, [https://fossee.in/](https://fossee.in/)
+- Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd., [kunalpghosh@gmail.com](mailto:kunalpghosh@gmail.com)
+- Sumanto Kar, eSim Team, FOSSEE
+- Spoken Tutorial, [https://spoken-tutorial.org/](https://spoken-tutorial.org/)
+- VLSI System Design, [https://www.vlsisystemdesign.com/](https://www.vlsisystemdesign.com/)
+- 
+# Author
+
+**Ayesha Parveen**,  
+B.Tech Electronics Engineering,  
+Zakir Husain College of Engineering and Technology (ZHCET),  
+Aligarh Muslim University (AMU), Aligarh.
+
+
