@@ -28,8 +28,8 @@ Below is a simplified block diagram of the LDO circuit, showing the key componen
 | **VDD Min**           | Minimum supply voltage                                    | 2.5V         | 2.8V          | V        | For regulated output under given error limit              |
 | **VDD Max**           | Maximum supply voltage                                    | 6.2V         | 6.7541V       | V        | For regulated output under given error limit              |
 | **VDO**               | Dropout Voltage (difference between Vdd and Vout)         | 0.9V         | 1.8V          | V        | @Vdd=3.3V                                                |
-| **PSRR @100kHz**      | Power Supply Rejection Ratio at specified frequency       | 50           | 60            | dB       | @ 100 kHz                                                 |
-| **PSRR @0Hz**         | Power Supply Rejection Ratio at DC                        | 50           | 60            | dB       | -                                                         |
+| **PSRR @100kHz**      | Power Supply Rejection Ratio at specified frequency       | 30           | 32.3            | dB       | @ 100 kHz                                                 |
+| **PSRR @0Hz**         | Power Supply Rejection Ratio at DC                        | 45.8           | 40            | dB       | @ DC                                                     |
 
 ---
 
@@ -72,6 +72,10 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 ### Line Regulation
 <p align="center">
   <img src="line2.png" alt="Line Regulation for Vreg 2.4V" width="60%"/>
+</p>
+### Regulated Output
+<p align="center">
+  <img src="linevreg2.png" alt="Line Regulation 2.4V" width="60%"/>
 </p>
 
 ### Transient Line Regulation
