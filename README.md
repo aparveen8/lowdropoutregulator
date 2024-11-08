@@ -51,23 +51,20 @@ Below is a simplified block diagram of the LDO circuit, showing the key componen
 ## Circuit Schematic
 The following schematic illustrates the dual-mode LDO circuit, supporting both 1.2V and 1.8V supply configurations.
 <p align="center">
-  <img src="" alt="LDO Block Diagram"/>
+  <img src="schematic.png" alt="LDO Block Diagram"/>
 </p>
 ---
 
----
-
-## Simulation Results
-
-### PSRR Analysis
+## Simulation Results (For Vreg=2.4)
 
 ### Line Regulation
 <p align="center">
-  <img src="images/line1.png" alt="line"/>
+  <img src="line1.png" alt="line"/>
 </p>
 <p align="center">
   <img src="line2.png" alt="line2"/>
 </p>
+### Transient Line Regulation
 <p align="center">
   <img src="linetran1.png" alt="linet1"/>
 </p>
