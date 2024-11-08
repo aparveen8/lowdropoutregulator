@@ -23,7 +23,7 @@ This design presents a dual-mode LDO for battery-powered systems, implemented us
 ## A Glance at block diagram of LDO
 Below is a simplified block diagram of the LDO circuit, showing the key components:
 <p align="center">
-  <img src="images/dual_mode_LDO_block_diagram.png" alt="LDO Block Diagram"/>
+  <img src="block.png" alt="LDO Block Diagram"/>
 </p>
 
 ---
@@ -64,10 +64,10 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 ### PSRR Analysis
 The Power Supply Rejection Ratio (PSRR) of this LDO is measured at -29.8 dB at 100 kHz, effectively filtering power supply noise to protect sensitive analog blocks.
 
-### Load and Line Regulation
-- **Load Regulation**: 0.34 µV/mA across a 0-24mA load, ensuring output stability under changing loads.
-- **Line Regulation**: Maintains stable output voltage with a line regulation of 0.3 mV/V.
-
+### Line Regulation
+<p align="center">
+  <img src="images/line1.png" alt="line"/>
+</p>
 ---
 
 ## Netlists
