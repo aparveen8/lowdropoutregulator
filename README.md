@@ -82,16 +82,7 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ---
 
-## Steps to Run NgVeri Model
-1. Open eSim.
-2. Run NgVeri-Makerchip.
-3. Add the top-level Verilog file in Makerchip.
-4. Go to the NgVeri tab.
-5. Add dependency files.
-6. Run the Verilog to NgSpice converter.
-7. Debug any errors for successful model creation.
 
----
 
 # References
 
