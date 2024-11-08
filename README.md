@@ -20,26 +20,31 @@ This design presents a dual-mode LDO for battery-powered systems, implemented us
 ---
 
 
-## A Glance at block diagram of LDO
+## A Glance at block diagram of Proposed LDO
 Below is a simplified block diagram of the LDO circuit, showing the key components:
 <p align="center">
-  <img src="block.png" alt="LDO Block Diagram"/>
+  <img src="block3.png" alt="LDO Block Diagram"/>
 </p>
 
 ---
 
-## Dual Mode Design Parameters
+## LDO Design Perforance Parameters
 
-| Parameter        | Design I       | Design II     | Units |
-|------------------|----------------|---------------|-------|
-| V<sub>Supply</sub>     | 1.8V           | 1.2V          | V     |
-| V<sub>OUT</sub>        | 1.5V           | 1.1V          | V     |
-| V<sub>REF</sub>        | 1.2V           | 1.0V          | V     |
-| R1               | 10kΩ           | 4kΩ           | Ω     |
-| R2               | 40kΩ           | 40kΩ          | Ω     |
-| W<sub>M1</sub>         | 2.5mm          | 2.5mm         | mm    |
-| C<sub>LOAD</sub>       | 10pF           | 10pF          | pF    |
-| I<sub>LOAD</sub>       | 0 - 24mA       | 0 - 24mA      | mA    |
+| **Parameter**         | **Description**                                           | **Design I** | **Design II** | **Unit** | **Condition**                                             |
+|----------------------|-----------------------------------------------------------|--------------|---------------|----------|----------------------------------------------------------|
+| **Technology**        | Process                                                   | 0.18 µm CMOS | 0.18 µm CMOS  | -        | -                                                        |
+| **Output Voltage**    | Regulated Output voltage                                   | 2.4V         | 1.5V          | V        | -                                                        |
+| **R_FB1**              | Feedback resistor 1                                       | 150kΩ         | 150kΩ           | Ω        | -                                                        |
+| **RFB2**               | Feedback resistor 2                                       | 150kΩ         | 600kΩ          | Ω        | -                                                        |
+| **CL**                 | Load capacitance                                          | 10pF         | 10pF          | pF       | -                                                        |
+| **Line Reg.**         | Line regulation (voltage change per unit supply voltage) | 3.311        | 3.365           | mV/V       | VDD=3.3V, T=27°C                                          |
+| **Error Tolerance**   | Tolerance in output voltage variation                    | ±0.75%        | ±.8%         | %        | Over supply voltage variations           |
+| **VDD min**   | minimum supply voltgae                   | 2.5     |    2.8    | V       | For regulated output under given error limit            |
+| **VDD max**   | maximum supply voltgae                   |  6.2    |   6.7541     | V       | For regulated output under given error limit           |
+| **VDO **    | Drop Out Voltage (difference between Vdd and Vout)      |  0.9         |     1.8    |    |     @Vdd=3.3V                                         |
+| **PSRR @100kHz **    | Power Supply Rejection Ratio at specified frequency       | 50           | 60            | dB       | at 100 kHz                                                  |
+| **PSRR @0Hz   **    | Power Supply Rejection Ratio at specified frequency       | 50           | 60            | dB       | at DC                                                 |
+
 
 ---
 
@@ -51,18 +56,11 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ---
 
-## Software Used
-- **eSim**: Open-source EDA tool by FOSSEE, IIT Bombay, combining NgSpice and KiCAD.
-- **NgSpice**: For SPICE simulations of analog and mixed-signal designs.
-- **Makerchip**: Web IDE for Verilog/SystemVerilog simulations.
-- **Verilator**: Verilog-to-C++ converter for high-performance simulation.
-
 ---
 
 ## Simulation Results
 
 ### PSRR Analysis
-The Power Supply Rejection Ratio (PSRR) of this LDO is measured at -29.8 dB at 100 kHz, effectively filtering power supply noise to protect sensitive analog blocks.
 
 ### Line Regulation
 <p align="center">
@@ -70,10 +68,6 @@ The Power Supply Rejection Ratio (PSRR) of this LDO is measured at -29.8 dB at 1
 </p>
 ---
 
-## Netlists
-- [LDO Circuit Netlist](LDO/LDO.cir.out)
-- [Error Amplifier Netlist](LDO/Error_Amp.cir.out)
-- [Pass Transistor Netlist](LDO/Pass_Transistor.cir.out)
 
 ---
 
@@ -88,7 +82,3 @@ The Power Supply Rejection Ratio (PSRR) of this LDO is measured at -29.8 dB at 1
 
 ---
 
-## Steps to Run this Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/aparveen8/LDO_design.git
