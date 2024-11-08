@@ -95,7 +95,7 @@ Explanation: Highlights how the LDO maintains output stability at 2.4V under var
 
 ### Regulated Output
 <p align="center">
-  <img src="linevreg2.png" alt="Line Regulation 2.4V" width="60%"/>
+  <img src="images/linevreg2.png" alt="Line Regulation 2.4V" width="60%"/>
 </p>
 Explanation: Shows the consistent regulated output at 2.4V, providing insight into performance under higher supply demands.
 
@@ -118,6 +118,7 @@ Explanation: Confirms stability under different conditions, ensuring reliable op
   <img src="images/amp.png" alt="Error Amplifier" width="60%"/>
 </p>
 Explanation: This component compares the feedback voltage to the reference, adjusting the pass transistor to maintain a stable output. Its design affects the LDO’s speed and stability, directly impacting line and load regulation.
+
 ---
 
 ## Steps to run this project
