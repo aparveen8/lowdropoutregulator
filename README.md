@@ -73,6 +73,7 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 <p align="center">
   <img src="line2.png" alt="Line Regulation for Vreg 2.4V" width="60%"/>
 </p>
+
 ### Regulated Output
 <p align="center">
   <img src="linevreg2.png" alt="Line Regulation 2.4V" width="60%"/>
