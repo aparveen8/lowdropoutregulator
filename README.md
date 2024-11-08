@@ -14,10 +14,10 @@ Below is a simplified block diagram of the LDO circuit, showing the key componen
 
 ### Explanation:
 
-Error Amplifier: The central component that manages regulation by comparing the feedback voltage with a reference voltage and adjusting the output to maintain stability.
-Feedback Network (R_FB1 and R_FB2): These resistors set the output voltage by dividing it back to the error amplifier, ensuring that the output stays regulated at the desired level.
-Pass Transistor: Controls the output current and is driven by the error amplifier to stabilize the output voltage.
-Load Capacitor (C_L): Provides stability and helps filter noise, critical for ensuring a clean output voltage.
+1. Error Amplifier: The central component that manages regulation by comparing the feedback voltage with a reference voltage and adjusting the output to maintain stability.</br> 
+2. Feedback Network (R_FB1 and R_FB2): These resistors set the output voltage by dividing it back to the error amplifier, ensuring that the output stays regulated at the desired level.</br> 
+3. Pass Transistor: Controls the output current and is driven by the error amplifier to stabilize the output voltage.</br> 
+4. Load Capacitor (C_L): Provides stability and helps filter noise, critical for ensuring a clean output voltage.
 ---
 
 ## LDO Design Performance Parameters
@@ -49,9 +49,9 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ### Explanation:
 
-Switching Resistor Network: Adjusts feedback resistance, enabling quick transitions between different output voltage, by just tuning R2
-Compensation Capacitor: Enhances stability in the error amplifier, especially beneficial for transient response under rapid load changes.
-Output Stage: The combination of the pass transistor and load capacitor C_L supplies a stable, regulated voltage.
+- Switching Resistor Network: Adjusts feedback resistance, enabling quick transitions between different output voltage, by just tuning R2</br> 
+- Compensation Capacitor: Enhances stability in the error amplifier, especially beneficial for transient response under rapid load changes</br> 
+- Output Stage: The combination of the pass transistor and load capacitor C_L supplies a stable, regulated voltage
 ---
 
 ## Simulation Results (For Vreg = 1.5V)
