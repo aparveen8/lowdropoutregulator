@@ -38,7 +38,7 @@ Below is a simplified block diagram of the LDO circuit, showing the key componen
 The following schematic illustrates the dual-mode LDO circuit, supporting both 1.5V and 2.4V supply configurations.
 
 <p align="center">
-  <img src="schematic.png" alt="LDO Schematic" width="60%"/>
+  <img src="schematicf.png" alt="LDO Schematic" width="60%"/>
 </p>
 
 ---
