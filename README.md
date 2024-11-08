@@ -61,38 +61,62 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 <p align="center">
   <img src="line1.png" alt="line"/>
 </p>
-<p align="center">
-  <img src="line2.png" alt="line2"/>
-</p>
+
 ### Transient Line Regulation
 <p align="center">
   <img src="linetran1.png" alt="linet1"/>
 </p>
+
+### Operating Point Analysis
+<p align="center">
+  <img src="op1.png" alt="op1"/>
+</p>
+
+### PSRR
+<p align="center">
+  <img src="psrr1.png" alt="ps1"/>
+</p>
+---
+## Simulation Results (For Vreg=1.5)
+
+### Line Regulation
+<p align="center">
+  <img src="line2.png" alt="line2"/>
+</p>
+
+### Transient Line Regulation
 <p align="center">
   <img src="linetran2.png" alt="linet2"/>
 </p>
+
+### Operating Point Analysis
 <p align="center">
-  <img src="linetran1.png" alt="linet1"/>
+  <img src="op2.png" alt="op2"/>
 </p>
----
 
-
+### PSRR
+<p align="center">
+  <img src="psrr2.png" alt="ps2"/>
+</p>
 ---
 
 
 
 # References
-
+[1]	Jung Sik Kim, Khurram Javed, and Jeongjin Roh, “Design of a low-power and area-efficient ldo regulator using a negative-r-assisted technique,” IEEE Trans. Circuits Syst. II, vol. 70, no. 10, pp. 3892– 3896, Oct 2023.
+[2]	Javed S Gaggatur and et.al, “A 0.009mm2 , 0-230mA Wide-range Load Current Output Capacitor-less Low Dropout Regulator for High Bandwidth Memory parallel IOs,” in 2022 35th International Conference on VLSI Design (VLSID), 2022, pp. 6–10. 
+[3] M. Reza, N. Alam and S. J. Gaggatur, "A 0-24mA, 1.2V/1.8V Dual Mode Low Dropout Regulator Design for Efficient Power Management in Battery-Powered Systems," 2024 28th International Symposium on VLSI Design and Test (VDAT), Vellore, India, 2024, pp. 1-6, doi: 10.1109/VDAT63601.2024.10705731.
 
 
 # Acknowledgments
 
-- FOSSEE, [https://fossee.in/](https://fossee.in/)
 - Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd., [kunalpghosh@gmail.com](mailto:kunalpghosh@gmail.com)
+- Prof. Naushad Alam, Department of Electronics Engineering, Aligarh Muslim University
 - Sumanto Kar, eSim Team, FOSSEE
+- - FOSSEE, [https://fossee.in/](https://fossee.in/)
 - Spoken Tutorial, [https://spoken-tutorial.org/](https://spoken-tutorial.org/)
 - VLSI System Design, [https://www.vlsisystemdesign.com/](https://www.vlsisystemdesign.com/)
-- 
+  
 # Author
 
 **Ayesha Parveen**,  
