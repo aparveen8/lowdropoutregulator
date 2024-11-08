@@ -90,7 +90,7 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ---
 
-## Error Amplifier
+### Error Amplifier
 <p align="center">
   <img src="amp.png" alt="Error Amplifier" width="60%"/>
 </p>
