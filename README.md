@@ -9,7 +9,7 @@ This design presents a dual-mode LDO for battery-powered systems, implemented us
 Below is a simplified block diagram of the LDO circuit, showing the key components:
 
 <p align="center">
-  <img src="block4.png" alt="LDO Block Diagram" width="60%"/>
+  <img src="images/block4.png" alt="LDO Block Diagram" width="60%"/>
 </p>
 
 ---
@@ -38,7 +38,7 @@ Below is a simplified block diagram of the LDO circuit, showing the key componen
 The following schematic illustrates the dual-mode LDO circuit, supporting both 1.5V and 2.4V supply configurations.
 
 <p align="center">
-  <img src="/images/schematicf.png" alt="LDO Schematic" width="60%"/>
+  <img src="images/schematicf.png" alt="LDO Schematic" width="60%"/>
 </p>
 
 ---
@@ -47,22 +47,22 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ### Line Regulation
 <p align="center">
-  <img src="line1.png" alt="Line Regulation" width="60%"/>
+  <img src="images/line1.png" alt="Line Regulation" width="60%"/>
 </p>
 
 ### Transient Line Regulation
 <p align="center">
-  <img src="linetran1.png" alt="Transient Line Regulation" width="60%"/>
+  <img src="images/linetran1.png" alt="Transient Line Regulation" width="60%"/>
 </p>
 
 ### Operating Point Analysis
 <p align="center">
-  <img src="op1.png" alt="Operating Point Analysis" width="60%"/>
+  <img src="images/op1.png" alt="Operating Point Analysis" width="60%"/>
 </p>
 
 ### PSRR
 <p align="center">
-  <img src="psrr1.png" alt="PSRR" width="60%"/>
+  <img src="images/psrr1.png" alt="PSRR" width="60%"/>
 </p>
 
 ---
@@ -71,7 +71,7 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ### Line Regulation
 <p align="center">
-  <img src="line2.png" alt="Line Regulation for Vreg 2.4V" width="60%"/>
+  <img src="images/line2.png" alt="Line Regulation for Vreg 2.4V" width="60%"/>
 </p>
 
 ### Regulated Output
@@ -81,19 +81,19 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ### Transient Line Regulation
 <p align="center">
-  <img src="linetran2.png" alt="Transient Line Regulation for Vreg 2.4V" width="60%"/>
+  <img src="images/linetran2.png" alt="Transient Line Regulation for Vreg 2.4V" width="60%"/>
 </p>
 
 ### Operating Point Analysis
 <p align="center">
-  <img src="op2.png" alt="Operating Point Analysis for Vreg 2.4V" width="60%"/>
+  <img src="images/op2.png" alt="Operating Point Analysis for Vreg 2.4V" width="60%"/>
 </p>
 
 ---
 
 ### Error Amplifier
 <p align="center">
-  <img src="amp.png" alt="Error Amplifier" width="60%"/>
+  <img src="images/amp.png" alt="Error Amplifier" width="60%"/>
 </p>
 
 ---
