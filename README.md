@@ -23,7 +23,7 @@ This design presents a dual-mode LDO for battery-powered systems, implemented us
 ## A Glance at block diagram of Proposed LDO
 Below is a simplified block diagram of the LDO circuit, showing the key components:
 <p align="center">
-  <img src="block3.png" alt="LDO Block Diagram"/>
+  <img src="block4.png" alt="LDO Block Diagram"/>
 </p>
 
 ---
@@ -51,9 +51,8 @@ Below is a simplified block diagram of the LDO circuit, showing the key componen
 ## Circuit Schematic
 The following schematic illustrates the dual-mode LDO circuit, supporting both 1.2V and 1.8V supply configurations.
 <p align="center">
-  <img src="images/dual_mode_LDO_schematic.png" alt="Dual Mode LDO Schematic"/>
+  <img src="" alt="LDO Block Diagram"/>
 </p>
-
 ---
 
 ---
@@ -65,6 +64,18 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 ### Line Regulation
 <p align="center">
   <img src="images/line1.png" alt="line"/>
+</p>
+<p align="center">
+  <img src="line2.png" alt="line2"/>
+</p>
+<p align="center">
+  <img src="linetran1.png" alt="linet1"/>
+</p>
+<p align="center">
+  <img src="linetran2.png" alt="linet2"/>
+</p>
+<p align="center">
+  <img src="linetran1.png" alt="linet1"/>
 </p>
 ---
 
