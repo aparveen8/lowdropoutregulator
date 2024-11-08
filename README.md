@@ -98,6 +98,20 @@ The following schematic illustrates the dual-mode LDO circuit, supporting both 1
 
 ---
 
+## Steps to run this project
+1. Open a new terminal
+2. Clone this project using the following command:</br>
+   `git clone https://github.com/aparveen8/lowdropoutregulator.git`</br>
+3. Change directory:</br>
+   `cd eSim_Project_Files/ayesha_LDO/`</br>
+4. Run ngspice:</br>
+   `ngspice ayesha_LDO.cir.out`</br>
+5. To run the project in eSim:
+	- Run eSim</br>
+	- Load the project</br>
+	- Open eeSchema to view schematic and click on simulate, make sure to open respective cir file for specific simulations </br> 
+ ---
+
 ## References
 
 1. Jung Sik Kim, Khurram Javed, and Jeongjin Roh, “Design of a low-power and area-efficient LDO regulator using a negative-R-assisted technique,” IEEE Trans. Circuits Syst. II, vol. 70, no. 10, pp. 3892–3896, Oct 2023.
